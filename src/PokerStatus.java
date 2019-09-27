@@ -9,8 +9,8 @@ public class PokerStatus {
 
     public String verificar(Carta carta1, Carta carta2, Carta carta3, Carta carta4, Carta carta5) {
         if(comparePoker(carta1, carta2, carta3, carta4, carta5)) {return "Es Poker";}
-        else if(compareTrio((carta1, carta2, carta3, carta4, carta5)) {return "Es Trio";}
-        else if(compareColor((carta1, carta2, carta3, carta4, carta5)) {return "Es Color";}
+        else if(compareTrio(carta1, carta2, carta3, carta4, carta5)) {return "Es Trio";}
+        else if(compareColor(carta1, carta2, carta3, carta4, carta5)) {return "Es Color";}
         else {return  "No hay jugada";}
     }
 
